@@ -1,4 +1,5 @@
 
+import { Luggage } from 'lucide-react';
 import React from 'react';
 
 export const Footer = () => {
@@ -6,14 +7,14 @@ export const Footer = () => {
     <footer className="bg-blue-950 text-white py-6">
       <div className="container mx-auto flex flex-col items-center ">
         {/* Logo Section */}
-        <div className="mb-4">
-          <img
-            src="/path-to-your-logo.png" // Replacing the logo path
-            alt="Travel Agency Logo"
-            className="w-24 h-24 object-contain"
-          />
-          <h1 className="text-2xl font-bold mt-2 ">Bharat Travels</h1>
-        </div>
+        <div>
+        <a href="#" className="flex items-center gap-x-2">
+          <span className="flex items-center justify-center text-black rounded-full bg-primary p-1">
+            <Luggage />
+          </span>
+          <span className="font-medium text-white">Bharat Travel</span>
+        </a>
+      </div>
 
         {/* Links Section */}
         <div className="flex flex-wrap justify-center space-x-6 mb-4">
