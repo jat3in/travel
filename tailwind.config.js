@@ -9,7 +9,7 @@ export default {
         hover: "#626971",
       },
       backgroundImage: {
-        'custom-image': "url('./src/public/travelBg.jpg')",
+        'custom-image': "url('./src/public/travelBg5.jpg')",
       },
       utilities: {
         ".hide-scrollbar": {
