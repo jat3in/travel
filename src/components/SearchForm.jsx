@@ -25,7 +25,7 @@ const SearchForm = () => {
   const today = new Date().toISOString().split('T')[0];
 
   return (
-    <div className="bg-[url('./src/public/travelBg5.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center">
+    <div className="bg-background bg-cover bg-center min-h-screen flex items-center justify-center">
    
      <style>
         {`
