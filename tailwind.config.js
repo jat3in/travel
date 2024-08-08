@@ -8,6 +8,9 @@ export default {
         background: "#075299",
         hover: "#626971",
       },
+      backgroundImage: {
+        'custom-image': "url('./src/public/travelBg.jpg')",
+      },
       utilities: {
         ".hide-scrollbar": {
           scrollbarWidth: "none", // Firefox
